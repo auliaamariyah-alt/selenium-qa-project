@@ -1,0 +1,9 @@
+username,password,firstname,lastname,expected,description
+newuser01,Test@1234,John,Doe,PASS,Semua data valid
+janedoe01,Test@123,Jane,Doe,PASS,Password tepat 8 karakter batas minimum
+,Test@1234,Bob,Smith,FAIL,Username kosong field wajib
+bobsmith01,,Bob,Smith,FAIL,Password kosong field wajib
+carol_w,Test@1234,,White,FAIL,First Name kosong field wajib
+dave_x,Test@1234,Dave,,FAIL,Last Name kosong field wajib
+,,Frank,Jones,FAIL,Username dan Password kosong
+newuser02,,,,FAIL,Semua field kosong kecuali username
